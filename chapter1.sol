@@ -82,3 +82,17 @@ contract local {
 }
 
 // constructor in solidity 
+contract loc {
+    uint public count;
+
+constructor() {
+    count = 0;
+}
+}
+
+// integers in solidity 
+
+contract pandit {
+    
+}
+
