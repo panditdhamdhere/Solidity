@@ -93,6 +93,6 @@ constructor() {
 // integers in solidity 
 
 contract pandit {
-    
+     int8 count = 127 // valid range -128 to 127
 }
 
