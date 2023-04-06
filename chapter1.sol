@@ -92,7 +92,26 @@ constructor() {
 
 // integers in solidity 
 
-contract pandit {
-     int8 count = 127 // valid range -128 to 127
+// contract pandit {
+//     //  int8 count = 127 // valid range -128 to 127
+
+
+// }
+
+// range
+// int 8 = -128 to 127                  uint8 = 0 to 255
+// int16 = -32768 to +32767             uint16 = 0 to 65535
+//  -2^(n-1) to 2^(n-1)-1               0 to 2^(n) -1
+
+
+// part 17 
+
+contract part 17 {
+uint public money = 255;
+function setter() public{
+    money = money +1;
+
+}
 }
 
+// loops in solidity
